@@ -57,7 +57,6 @@ body {
 .hero-background {
   text-align: center;
 
-  width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
@@ -74,26 +73,11 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/*.container .header {
-    display: flex;
+.section {
+  padding-top: 94px;
+  padding-bottom: 95px;
 }
-.header {
-    height: 80px;
-}
-.site-nav, .header-contacts{
-  display: flex;
-  gap: 50px;
-  align-items: center;
-}
-.header-nav {
-    display: flex;
-    align-items: center;
-}
-.header-logo {
-/*    padding-top: 24px;*/
-
 .header-contacts {
-  padding-right: 215px;
 }
 
 .logo {
@@ -122,6 +106,7 @@ body {
   line-height: 1.42;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  margin-left: auto;
 }
 .nav-studio {
   color: var(--accent-text-color);
@@ -160,6 +145,11 @@ body {
   color: var(--white-text-color);
   border-color: var(--accent-text-color);
 }
+.btn-first-page {
+  width: 216px;
+  height: 50px;
+
+}
 .text {
   font-size: 14px;
   line-height: 1.7;
@@ -180,8 +170,7 @@ body {
   margin-right: auto;
 }
 .hero-background {
-  width: 1200px;
-  height: 600px;
+  
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -211,9 +200,9 @@ h2 {
   align-items: center;
   gap: 30px;
 }
-/*.team-title {
-  text-align: center;
-}*/
+.heading-first-page {
+  margin-bottom: 50px;
+}
 .staff {
   gap: 30px;
 }
@@ -243,6 +232,7 @@ h2 {
 }
 
 /*---------PORTFOLIO PAGE-------------*/
+
 .blue-portfolio {
   color: var(--accent-text-color);
 }
@@ -258,6 +248,7 @@ h2 {
   color: var(--primary-text-color);
   background-color: var(--portfolio-button);
   border-color: var(--portfolio-button);
+  padding: 6px 12px;
 }
 .portf-button:hover,
 .portf-button:focus {
@@ -279,6 +270,7 @@ h2 {
   align-items: center;
   justify-content: center;
   gap: 8px;
+  margin-bottom: 50px;
 }
 .portf-list {
   display: flex;
@@ -287,8 +279,13 @@ h2 {
   align-items: center;
   justify-content: center;
   gap: 30px;
-  
 }
 .portf-item {
   flex-basis: calc((100% - 60) / 3);
+}
+.portf-description {
+  padding: 20px 24px;
+  
+  border: 2px solid var(--portfolio-button);
+  border-top: 0em;
 }
