@@ -7,6 +7,7 @@
   --portfolio-button: #f5f4fa;
   --footer-background: #2f303a;
   --footer-contacts: rgba(255, 255, 255, 0.6);
+  --border-color: #ECECEC;
 }
 
 /*main fonts
@@ -191,7 +192,7 @@ h2 {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+margin-bottom: 10px;
   color: var(--primary-text-color);
 }
 .benefits, 
@@ -205,11 +206,17 @@ h2 {
    display: flex;
   align-items: center;
 }
+.tem-heading {
+  padding-top: 94px;
+}
 .staff .staff-member {
   margin-bottom: 10px;
 }
+.benefits-section {
+  padding-top: 89px;
+}
 .benefits {
-  margin-top: 89px;
+ 
   align-items: flex-start;
 }
 .heading-first-page {
@@ -229,11 +236,16 @@ h2 {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  border: 2px solid var(--portfolio-button);
+  border: 1px solid var(--border-color);
   border-top: 0em;
-  padding-left: 15px;
-  padding-right: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
 
+}
+.member-text {
+  font-size: 16px;
+line-height: 1.18px;
+padding-top: 10px;
 }
 .footer-contacts {
   font-family: 'Roboto';
@@ -262,12 +274,21 @@ h2 {
 }
 .address .city {
   margin-top: 20px;
+  
 }
 
-
+.city-color {
+  color: var(--white-text-color);
+}
 
 /*---------PORTFOLIO PAGE-------------*/
 
+.header-border {
+  border: 2px solid var(--border-color);
+border-top: none;
+border-right: none;
+border-left: none;
+}
 .blue-portfolio {
   color: var(--accent-text-color);
 }
@@ -286,8 +307,8 @@ h2 {
   line-height: 1.62;
   color: var(--primary-text-color);
   background-color: var(--portfolio-button);
-  border-color: var(--portfolio-button);
-  padding: 6px 12px;
+  border: none;
+  padding: 6px 22px;
 }
 .portf-button:hover,
 .portf-button:focus {
@@ -325,6 +346,10 @@ h2 {
 .portf-description {
   padding: 20px 24px;
   
-  border: 2px solid var(--portfolio-button);
+  border: 1px solid var(--border-color);
   border-top: 0em;
+}
+.text-portfolio-item {
+  font-size: 16px;
+line-height: 1.87px;
 }
