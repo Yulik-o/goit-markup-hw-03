@@ -74,7 +74,7 @@ body {
   overflow: hidden;
 }
 .section {
-  padding-top: 94px;
+  
   padding-bottom: 95px;
 }
 .header-contacts {
@@ -148,6 +148,7 @@ body {
 .btn-first-page {
   width: 216px;
   height: 50px;
+  margin-top: 30px;
 
 }
 .text {
@@ -193,18 +194,29 @@ h2 {
 
   color: var(--primary-text-color);
 }
-.benefits,
-.staff,
+.benefits, 
 .what-we-do {
   display: flex;
   align-items: center;
   gap: 30px;
+  
+}
+.staff {
+   display: flex;
+  align-items: center;
+}
+.staff .staff-member {
+  margin-bottom: 10px;
+}
+.benefits {
+  margin-top: 89px;
+  align-items: flex-start;
 }
 .heading-first-page {
   margin-bottom: 50px;
 }
-.staff {
-  gap: 30px;
+.staff-members-list:not(:last-child) {
+  margin-right: 30px;
 }
 .staff-member {
   font-weight: 500;
@@ -212,6 +224,16 @@ h2 {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+.staff-fellow {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 2px solid var(--portfolio-button);
+  border-top: 0em;
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
 .footer-contacts {
   font-family: 'Roboto';
@@ -230,6 +252,19 @@ h2 {
 .footer {
   background-color: var(--footer-background);
 }
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  
+}
+.footer-contacts-list {
+  margin-top: 9px;
+}
+.address .city {
+  margin-top: 20px;
+}
+
+
 
 /*---------PORTFOLIO PAGE-------------*/
 
@@ -238,6 +273,10 @@ h2 {
 }
 .white-studio {
   color: var(--primary-text-color);
+}
+.section-main {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .portf-button {
   font-family: 'Roboto';

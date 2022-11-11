@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -38,7 +38,8 @@
       </div>
     </header>
     <main>
-      <section class="container">
+      <section class="section-main">
+        <div class="container">
         <h1 class="visually-hidden">Наше портфоліо</h1>
         <ul class="list btn-list">
           <li><button type="button" class="button">Усі</button></li>
@@ -95,21 +96,26 @@
             <p class="text">Додаток</p></div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
-    <footer class="footer container">
-      <a href="" class="logo bluelogo link" lang="en" 
-        >Web<span class="whitelogo">Studio</span></a
-      >
-      <address class="address">
-        <ul class="list">
-          <li><a href="" class="footer-contacts link"> м. Київ, пр-т Лесі Українки, 26</a></li>
-          <li>
-            <a href="mailto:info@devstudio.com" class="email footer-contacts link" lang="en">info@devstudio.com</a>
-          </li>
-          <li><a href="tel:+380961111111" class="tel footer-contacts link">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+    <footer class="footer">
+      <div class="container">
+        <a href="" class="logo bluelogo link" lang="en">Web<span class="whitelogo">Studio</span></a>
+        <address class="address">
+          <ul class="list">
+            <li class="footer-contacts-list city"><a href="https://goo.gl/maps/ugx2uoaKzAVFm4ci9" class="footer-contacts link"> м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li class="footer-contacts-list">
+              <a href="mailto:info@devstudio.com" class="email footer-contacts link" lang="en"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="footer-contacts-list">
+              <a href="tel:+380961111111" class="tel footer-contacts link">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
